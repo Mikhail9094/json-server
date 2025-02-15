@@ -1,0 +1,18 @@
+.seminar-list {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
