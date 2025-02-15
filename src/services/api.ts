@@ -2,7 +2,7 @@ import axios, { AxiosError, AxiosInstance } from "axios";
 import { ISeminar } from "../components/SeminarList/types";
 import { ICustomError } from "../types";
 
-const BASE_URL = "http://localhost:4000/seminar";
+const BASE_URL = "http://localhost:4000/seminars";
 
 const createApiClient = (): AxiosInstance => {
   const instance = axios.create({
